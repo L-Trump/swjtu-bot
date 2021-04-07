@@ -1,0 +1,11 @@
+/dist
+/.idea
+test*.*
+**/__pycache__
+/*.egg-info
+/design
+/config
+/logs
+/debug
+/plugins/swjtu_courseTable/temp_course.png
+/data

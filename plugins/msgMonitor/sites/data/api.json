@@ -1,0 +1,49 @@
+{
+    "jwc": {
+        "url": "http://jwc.swjtu.edu.cn",
+        "description": "教务处",
+        "newsList": {
+            "url": "http://jwc.swjtu.edu.cn/vatuu/WebAction?setAction=newsList",
+            "type": "GET",
+            "params": {
+                "jumpPage": "页码"
+            },
+            "description": "教务处最新消息获取界面"
+        }
+    },
+    "xg": {
+        "url": "http://xg.swjtu.edu.cn",
+        "description": "扬华素质网",
+        "notice": {
+            "url": "http://xg.swjtu.edu.cn/web/Home/PushNewsList?PushPNodeNum=0109",
+            "type": "GET",
+            "params": {
+                "page": "页码"
+            },
+            "description": "通知公告"
+        }
+    },
+    "sist": {
+        "url": "http://sist.swjtu.edu.cn",
+        "description": "信息科学与技术学院",
+        "type": "POST",
+        "notice": {
+            "url": "http://sist.swjtu.edu.cn/list.do?action=news",
+            "data": {
+                "curPage": "页码",
+                "pageMethod": "jumpPage",
+                "navId": 46
+            },
+            "description": "本科生公告"
+        },
+        "graduateNotice": {
+            "url": "http://sist.swjtu.edu.cn/list.do?action=news",
+            "data": {
+                "curPage": "页码",
+                "pageMethod": "jumpPage",
+                "navId": 163
+            },
+            "description": "本科毕业设计公告"
+        }
+    }
+}
